@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #555;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+}
+
+.col {
+    float: left;
+    padding: 8px;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+
+.price-box {
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    border: solid 1px #555;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.price-box:hover,
+.price-box.best {
+    box-shadow: 0 10px 15px 0 #000;
+}
+
+.price-box .header {
+    background: #030000;
+    color: #fff;
+    font-size: 25px;
+}
+
+.price-box .header.header-green{
+    background-color: #4ca504;
+}
+
+.price-box li {
+    padding: 20px;
+    border-bottom: 1px #eee solid;
+    text-align: center;
+}
+
+.price-box .emp {
+    background: #f4f4f4;
+    font-size: #f4f4f4;
+}
+
+.button {
+    background-color: #4ca504;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+@media(max-width:700px){
+    .col{
+        width: 100%;
+    }
+}
